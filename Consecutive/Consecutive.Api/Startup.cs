@@ -34,6 +34,12 @@ namespace Consecutive.Api
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(builder =>
+                builder.WithOrigins("*")
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+            );
+
             app.UseMvc();
         }
     }
