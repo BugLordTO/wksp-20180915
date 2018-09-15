@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Consecutive
 {
@@ -6,18 +7,15 @@ namespace Consecutive
     {
         static void Main(string[] args)
         {
-            var sum = int.Parse(Console.ReadLine());
-            if (sum % 2 == 0)
+            while (true)
             {
+                Console.Write("Input: ");
+                var input = int.Parse(Console.ReadLine());
 
-            }
-            else
-            {
-                var start = (int)Math.Ceiling(sum / 2.0);
-                for (int i = start - 1; i >= 0; i--)
-                {
-
-                }
+                var engine = new ConsecutiveEngine();
+                var results = engine.Process(input);
+                if (results.Count() > 0) Console.WriteLine(results.Select(x => x.ToString()).Aggregate((x, y) => $"{x},{y}"));
+                else Console.WriteLine("No answer.");
             }
         }
     }
