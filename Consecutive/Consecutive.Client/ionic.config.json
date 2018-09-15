@@ -1,0 +1,7 @@
+{
+  "name": "Consecutive.Client",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
