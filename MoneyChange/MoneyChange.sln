@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyChange", "MoneyChange\MoneyChange.csproj", "{46152E30-6B4F-4ACE-9662-4B3582A03ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyChange.Test", "MoneyChange.Test\MoneyChange.Test.csproj", "{27DDB69C-F7E6-41E6-99BE-45BEBD639D4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46152E30-6B4F-4ACE-9662-4B3582A03ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46152E30-6B4F-4ACE-9662-4B3582A03ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46152E30-6B4F-4ACE-9662-4B3582A03ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46152E30-6B4F-4ACE-9662-4B3582A03ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27DDB69C-F7E6-41E6-99BE-45BEBD639D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27DDB69C-F7E6-41E6-99BE-45BEBD639D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27DDB69C-F7E6-41E6-99BE-45BEBD639D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27DDB69C-F7E6-41E6-99BE-45BEBD639D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA8D58B7-6697-4DE9-9ADF-53536E2B76E2}
+	EndGlobalSection
+EndGlobal
