@@ -16,9 +16,8 @@ export class HomePage {
     }
 
     calculate() {
-        this.http.get<number[]>("http://node21.codenvy.io:40936/api/values/get/" + this.input)
+        this.http.get<number[]>("http://node21.codenvy.io:48552/api/values/get/" + this.input)
             .subscribe(data => {
-              console.log(data);
               this.result = data;
             });
     }
